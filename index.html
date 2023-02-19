@@ -61,6 +61,7 @@
                   class="form-control"
                   placeholder="First Name"
                   required
+                  pattern="[A-Za-z]+"
                 />
                 <label for="First-name" class="form-label px-3 py-3"
                   >First Name</label
@@ -76,6 +77,7 @@
                   class="form-control"
                   placeholder="Last Name"
                   required
+                  pattern="[A-Za-z]+"
                 />
                 <label for="Last-name" class="form-label">Last Name</label>
                 <div class="invalid-feedback text-end fst-italic">
@@ -89,6 +91,7 @@
                   class="form-control"
                   placeholder="email"
                   required
+                  pattern="[A-Za-z\d]+@[A-Za-z\d]+\.[a-z]{2, }"
                 />
                 <label for="email" class="form-label">Email Address</label>
                 <div class="invalid-feedback text-end fst-italic">
